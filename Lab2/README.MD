@@ -58,7 +58,7 @@ Greedy Best-First-Search will tend to focus on paths that lead southwards.
 
 **4. What is a heuristic?**
 
-Heuristic is a function which is used in Informed Search, and it nds the most promising
+Heuristic is a function which is used in Informed Search, and it finds the most promising
 path. It takes the current state of the agent as its input and produces the estimation of
 how close agent is from the goal.
 
