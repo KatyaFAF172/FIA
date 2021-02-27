@@ -75,7 +75,7 @@ df = pd.read_csv('apartmentComplexData.csv',names=column)
 print(df)
 ```
 
-![1]https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/1.PNG)
+![1](https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/1.PNG)
 
 Pandas consist of drop function which is used in removing rows or columns from the CSV files:
 
@@ -84,7 +84,7 @@ df.drop(['value1','value2','value8'],axis=1,inplace=True)
 df.head()
 ```
 
-![2]https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/2.PNG)
+![2](https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/2.PNG)
 
 **Linear Regression**
 
@@ -196,7 +196,7 @@ model.compile(loss='mae', optimizer='adam', metrics=['mae'])
 model.summary()
 ```
 
-![3]https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/3.PNG)
+![3](https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/3.PNG)
 
 **Mean Absolute Error**: mean_absolute_error, MAE, mae
 **Adam** optimization is a stochastic gradient descent method that is based on adaptive estimation of first-order and second-order moments.
@@ -211,7 +211,7 @@ that the current digit image belongs to one of our 50 digit classes.
 model.fit(X_train, y_train, batch_size=32, epochs=300)
 ```
 
-![4]https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/4.PNG)
+![4](https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/4.PNG)
 
 The data passed by the neuron leaves behind a weight or coefficient This weight remains on each neuron. 
 We have 50 neurons in the layer and therefore 50 coefficients remain in the layer.
@@ -237,7 +237,7 @@ train_result
 
 The Output:
 
-![5]https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/5.PNG)
+![5](https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/5.PNG)
 
 Root mean squared error (RMSE) is the square root of the mean of the square of all of the error. The use of RMSE is very common, and it is considered an excellent general-purpose error metric for numerical predictions.
 
@@ -249,7 +249,7 @@ rms = sqrt(mean_squared_error(y_train, model.predict(X_train)))
 print ('Training Data have Root Mean Squared Error of {}'.format(rms))
 ```
 
-![6]https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/6.PNG)
+![6](https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/6.PNG)
 
 
 Distribution plots are very useful to check how well a variable is distributed in the dataset. 
@@ -271,7 +271,7 @@ plt.show()
 
 This graph shows that the data is not balanced.
 
-![8]https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/8.PNG)
+![8](https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/8.PNG)
 
 The following graphs show the ratio of each column to medianCompexValue.
 
@@ -334,11 +334,11 @@ def scatter_df(y_var):
     
 scatter_df('medianCompexValue')
 ```
-![9]https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/9.PNG)
+![9](https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/9.PNG)
 
-![10]https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/10.PNG)
+![10](https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/10.PNG)
 
-![11]https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/11.PNG)
+![11](https://github.com/KatyaFAF172/FIA/blob/main/Lab3/img/11.PNG)
 
 **Conclusions**
 
